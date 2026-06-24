@@ -1,0 +1,20 @@
+{
+  "name": "nodeframe",
+  "version": "1.0.0",
+  "description": "A minimal backend framework built from scratch using Node.js core modules.",
+  "homepage": "https://github.com/harshitclub/NodeFrame#readme",
+  "bugs": {
+    "url": "https://github.com/harshitclub/NodeFrame/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshitclub/NodeFrame.git"
+  },
+  "license": "MIT",
+  "author": "Harshit Kumar",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file=.env index.js"
+  }
+}
