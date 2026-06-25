@@ -1,10 +1,9 @@
-function demo(
-  options = {
-    a: true,
-    b: true,
-  },
-) {
-  console.log(options);
-}
+const url = new URL(
+  "http://localhost:8000/dfdfdf?value=1&page=2&sort=ascending",
+);
 
-demo({ a: false });
+console.log(url.pathname);
+console.log(url.search);
+console.log(url.searchParams);
+console.log(url.host);
+console.log(url.port);
