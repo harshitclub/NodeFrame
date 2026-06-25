@@ -1,12 +1,10 @@
-const routes = {
-  "/": function () {
-    console.log("Home Page");
+function demo(
+  options = {
+    a: true,
+    b: true,
   },
-  "/about": function () {
-    console.log("About Page");
-  },
-};
+) {
+  console.log(options);
+}
 
-const path = "/";
-
-routes[path]();
+demo({ a: false });
